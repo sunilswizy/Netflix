@@ -1,0 +1,59 @@
+.movie-preview {
+  width: 100%;
+  height: 90vh;
+  padding-top: 10vh;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.movie-preview_title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 0.3rem;
+}
+
+.movie-preview_overview {
+  color: #fff;
+  width: 45rem;
+  line-height: 1.3rem;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 350px;
+  height: 80px;
+  font-weight: bold;
+}
+
+.movie-preview_button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  padding: 0.7rem 3.5rem 0.7rem 3.5rem;
+  margin-right: 1rem;
+  background-color: rgba(51, 51, 51, 0.9);
+}
+
+.movie-preview_button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+
+.movie__bottom {
+  margin-left: -30px;
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+
+.movie-preview_contents {
+  margin-left: 30px;
+  padding-top: 283px;
+}
