@@ -1,2 +1,2 @@
 Netflix clone 
-check app on - https://netflix-7sr.pages.dev/
+check app on - https://49f0504a.netflix-7sr.pages.dev/
